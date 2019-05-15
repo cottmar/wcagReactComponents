@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Button from './Button.js';
+import ToggleButton from './UI/ToggleButton/ToggleButton';
 import styles from './App.module.css';
+import ContactForm from './containers/ContactForm/ContactForm';
 
 class App extends Component {
   componentDidMount() {
@@ -10,8 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className={styles.App}>
-        <p>Hello?</p>
-        <Button />
+      <p>Welcome!</p>
+        <ToggleButton />
+        <ContactForm />
       </div>
     )
   }
