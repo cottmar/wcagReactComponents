@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ToggleButton from './UI/ToggleButton/ToggleButton';
+import ToggleButton from './components/UI/ToggleButton/ToggleButton';
 import styles from './App.module.css';
 import ContactForm from './containers/ContactForm/ContactForm';
 
