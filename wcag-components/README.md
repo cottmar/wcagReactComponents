@@ -20,3 +20,7 @@
 # Resources
 ### W3C [https://www.w3.org/](https://www.w3.org/)
 ### ReactJS [https://reactjs.org/docs/accessibility.html](https://reactjs.org/docs/accessibility.html)
+
+Goals:
+Loading Component - alerts using when page is loading
+Annoucements Component - messaging announcements

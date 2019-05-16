@@ -6,6 +6,10 @@ const input = (props) => {
   
   const inputStyles = [styles.inputElement];
 
+  if (props.invalid) {
+    inputStyles.push(styles.Invalid);
+  }
+
   switch (props.elementType) {
     case ('input'):
       inputElement = <input

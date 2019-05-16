@@ -77,6 +77,7 @@ formIsValid: false
   }
 
   inputChangedHandler = (event, inputIdentifier) => {
+    console.log(event.target.value);
     const updatedFormElement = updatedObject(this.state.contactForm[inputIdentifier], {
       value: event.target.value,
       valid: checkValidity(event.target.value, this.state.contactForm[inputIdentifier].validation),
