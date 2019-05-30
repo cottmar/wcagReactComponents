@@ -117,8 +117,7 @@ formIsValid: false
             changed={(event) => this.inputChangedHandler(event, formElement.id)}
           />
         ))}
-        <Button btnType="Success" disabled={!this.state.formIsValid}>SUBMIT!</Button>
-        
+        <Button btnType="Success" disabled={!this.state.formIsValid}>SUBMIT!</Button> 
       </form>
     );
 
