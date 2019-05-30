@@ -16,7 +16,8 @@ const input = (props) => {
         className={inputStyles.join(' ')}
         {...props.elementCongif}
         value={props.value}
-        onChange={props.changed}/>
+        onChange={props.changed}
+      />
        break;
     case ('textarea'):
        inputElement = <textarea
@@ -48,7 +49,7 @@ const input = (props) => {
 
    return (
      <div className={styles.Input}>
-      <label className={styles.label} aria-label="Contact Form"></label>
+      <label className={styles.label} aria-label="Contact Form">{props.elementConfig.placeholder}</label>
       {inputElement}
      </div>
    );

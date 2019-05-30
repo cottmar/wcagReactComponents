@@ -16,11 +16,18 @@
 5. Background and foreground colors have a sufficient contrast ratio
 6. No element has a [tabindex] value greater than 0
 
+# Inert Polyfills
+### WICG GH [https://github.com/WICG/inert](https://github.com/WICG/inert)
+#### The inert attribute/property allows web authors to mark parts of the DOM tree as inert. This means, when a node is inert, the user agent must act as if the node was absent for the purposes of targeting user interaction events, they may ignore the node for the purposes of text search user interfaces, and may prevent the user from selecting text in that node. 
+#### Think of a Side Drawer Menu - you may want the elements inside it unfocusable (by mouse, pointer events, or keyboard tabbing) unless it is selected. Otherwise, the user might be tabbing through a page and the focus will disapper.
 
 # Resources
 ### W3C [https://www.w3.org/](https://www.w3.org/)
 ### ReactJS [https://reactjs.org/docs/accessibility.html](https://reactjs.org/docs/accessibility.html)
+### Google Chrome Developers [https://www.youtube.com/watch?v=fGLp_gfMMGU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=29](https://www.youtube.com/watch?v=fGLp_gfMMGU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=29)
 
 Goals:
+Inert Polyfill - Work on adding the close button on sidedrawer, arias, toggles, and keybaord additions needed.
+Contact Data - work on building out the a11y and test
 Loading Component - alerts using when page is loading
 Annoucements Component - messaging announcements

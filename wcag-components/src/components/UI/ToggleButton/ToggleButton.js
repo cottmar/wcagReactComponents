@@ -9,6 +9,7 @@ import styles from './ToggleButton.module.css';
      onClick={props.clicked}
      tabIndex="0"
      aria-pressed="false"
+     role="switch"
      >
      Click!
      </button>

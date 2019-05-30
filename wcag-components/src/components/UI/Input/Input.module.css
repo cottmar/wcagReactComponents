@@ -8,6 +8,7 @@
   font-weight: bold;
   display: block;
   margin-bottom: 8px;
+  margin: 5px;
 }
 
 .InputElement {
@@ -29,4 +30,5 @@
 .Invalid {
   border: 1px solid red;
   background-color: salmon;
+  margin: 5px;
 }
