@@ -27,6 +27,7 @@
 ### Google Chrome Developers [https://www.youtube.com/watch?v=fGLp_gfMMGU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=29](https://www.youtube.com/watch?v=fGLp_gfMMGU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=29)
 
 Goals:
+Inert Polyfill - Work on adding the close button on sidedrawer, arias, toggles, and keybaord additions needed.
+Contact Data - work on building out the a11y and test
 Loading Component - alerts using when page is loading
 Annoucements Component - messaging announcements
-Inert Polyfill 

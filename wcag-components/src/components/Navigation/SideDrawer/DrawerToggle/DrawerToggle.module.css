@@ -11,6 +11,10 @@
   text-decoration: none;
 }
 
+.DrawerToggle:hover {
+  color:green;
+}
+
 .DrawerToggle div {
   width: 90%;
   height: 3px;
