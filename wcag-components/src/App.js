@@ -7,6 +7,7 @@ import ToggleButton from './components/UI/ToggleButton/ToggleButton';
 import ContactForm from './containers/ContactForm/ContactForm';
 import One from '../src/components/One/One';
 import Two from '../src/components/Two/Two';
+import ToDoList from '../src/components/ToDoList/ToDoList';
 
 class App extends Component {
   componentDidMount() {
@@ -20,18 +21,18 @@ class App extends Component {
         <Route path="/2" component={Two} />
         <Route path="/ToggleButton" component={ToggleButton} />
         <Route path="/ContactForm" component={ContactForm} />
+        <Route path="/ToDoList" component={ToDoList} />
       </Switch>
     );
 
     return (
       <div className={styles.App}>
-      <Layout>
-        {routes}
-      </Layout>
+        <Layout>
+          {routes}
+        </Layout>
       </div>
     )
   }
-
 }
 
 export default App;
