@@ -6,12 +6,12 @@ import styles from './ToggleButton.module.css';
   const toggleButton = (props) => (
     <button
      className={styles.Button}
-     onClick={props.clicked}
+     onClick={props.onClick}
      tabIndex="0"
      aria-pressed="false"
      role="switch"
      >
-     Click!
+     {props.children}
      </button>
   )
 

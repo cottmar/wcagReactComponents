@@ -1,6 +1,7 @@
 .Button {
   display: inline-block;
   position: relative;
+  margin: 1em;
   padding: 0.4em 0.7em;
   border: 1px solid hsl(58, 71%, 49%);
   border-radius: 5px;
