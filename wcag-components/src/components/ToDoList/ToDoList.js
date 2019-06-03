@@ -46,18 +46,24 @@ class ToDoList extends Component {
     render() {
       return (
         <Aux>
-            <h1>Accessible To Do List</h1>
-            <label className={styles.Label}>
-              Please type item for your list
-            </label>
+            <h1 tabIndex="-1">My Accessible To Do List</h1>
+            <form>
+            <label>To Do Item:</label>
               <input
                 type="text"
+                placeholder="Ex: Pet a chicken"
+                className={styles.Input}
+                aria-required="true"
+                aria-label="Write a new to-do item"
                 value={this.state.newItem}
                 onChange={event => this.updateInput("newItem", event.target.value)}  
               />
-          <ToggleButton onClick={() => this.addItem()}>
+          <ToggleButton 
+            onClick={() => this.addItem()}
+          >
             Add
           </ToggleButton>
+          </form>
           <div className={styles.List}>
             <ul>
               {this.state.list.map(item => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Toolbar.module.css';
-import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 
+import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 import NavigationItems from '../NavigationItems/NavigationItems';
 
 
