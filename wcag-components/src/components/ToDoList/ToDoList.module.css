@@ -1,5 +1,9 @@
-.Label {
-  padding: 10px;
+.Input {
+  display: inline-block;
+  position: relative;
+  margin: 1em;
+  padding: 0.4em 0.7em;
+  font-weight: bold;
 }
 
 ul {

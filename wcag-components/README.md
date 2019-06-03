@@ -1,6 +1,11 @@
 # WCAG React Components
 ### Web Accessibility, or A11y, is the design of pages, tools, and technoglogies on the web that are built for everyone to use, regardless of ability or disability. Web development with an emphasis on accessibility ensures inclusion of the entire population that uses the web. I am passionate about adding accessibile features to apps and pages that I develop. By building reusable React Componenets that pass A11y audits and requirements, I will be both learning about A11y features and requirements, while simultaneously building reuseable components for reuse in future React applications.
 
+# The Basics -- For noobs like me
+1. Focus
+2. Keyboard
+3. Aria
+
 # App Component
 1. Document has a <title> element
 2. <html> element has a [lang] attribute
@@ -31,3 +36,4 @@ Inert Polyfill - Work on adding the close button on sidedrawer, arias, toggles, 
 Contact Data - work on building out the a11y and test
 Loading Component - alerts using when page is loading
 Annoucements Component - messaging announcements
+Modal
