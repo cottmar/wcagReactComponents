@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Input from '../../components/UI/Input/Input';
-import Button from '../../components/UI/ToggleButton/ToggleButton';
+import ToggleButton from '../../components/UI/ToggleButton/ToggleButton';
 import { updatedObject, checkValidity } from '../../shared/utility.js';
 import styles from './ContactForm.module.css';
 
@@ -95,6 +95,11 @@ formIsValid: false
     this.setState({ contactForm: updatedContactForm, formIsValid: formIsValid });
   }
 
+  submitForm = () => {
+    alert('Your form was successfully submitted!');
+      this.props.history.push('/Home')
+  }
+
   render() {
     const formElementsArray = [];
     for (let key in this.state.contactForm) {
@@ -117,7 +122,7 @@ formIsValid: false
             changed={(event) => this.inputChangedHandler(event, formElement.id)}
           />
         ))}
-        <Button btnType="Success" disabled={!this.state.formIsValid}>SUBMIT!</Button> 
+        <ToggleButton disabled={!this.state.formIsValid} onClick={() => this.submitForm()}>SUBMIT!</ToggleButton> 
       </form>
     );
 
@@ -131,7 +136,3 @@ formIsValid: false
 }
 
 export default ContactForm;
-
-// need , redux, routing, , success on button
-
-// Input, orderHandler, 

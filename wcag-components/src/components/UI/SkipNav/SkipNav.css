@@ -1,0 +1,32 @@
+.skip-links {
+  position: relative;
+}
+
+.skip-links ul {
+  list-style-type: none;
+}
+
+.LinkItem {
+  position: fixed;
+  top: -3em;
+  padding: 0.5em;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  z-index: 100;
+}
+
+.LinkItem:focus {
+  top: 1em;
+}
+
+.hidden {
+  position: absolute;
+  width: 0.01em;
+  height: 0.01em;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  border: none;
+  overflow: hidden;
+  white-space: nowrap;
+}
