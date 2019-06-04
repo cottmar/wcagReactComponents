@@ -46,12 +46,11 @@ class ToDoList extends Component {
     render() {
       return (
         <Aux>
-            <h1 tabIndex="-1">My Accessible To Do List</h1>
-            <form>
+            <h1>To Do List</h1>
             <label>To Do Item:</label>
               <input
                 type="text"
-                placeholder="Ex: Pet a chicken"
+                placeholder="Ex: Pet a chicken"     
                 className={styles.Input}
                 aria-required="true"
                 aria-label="Write a new to-do item"
@@ -63,7 +62,6 @@ class ToDoList extends Component {
           >
             Add
           </ToggleButton>
-          </form>
           <div className={styles.List}>
             <ul>
               {this.state.list.map(item => {
